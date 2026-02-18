@@ -145,18 +145,7 @@ The app will open at `http://localhost:8501`. Type a question in Georgian or cli
 
 ## Deployment (Streamlit Community Cloud)
 
-You can deploy a live demo with a shareable URL for free:
-
-1. Push the repo to GitHub (make sure `.env` is gitignored — it already is)
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
-3. Click **New app** → select the repo, branch (`main`), and main file (`app.py`)
-4. Click **Advanced settings** → in the **Secrets** section, add:
-   ```toml
-   GROQ_API_KEY = "your_actual_key_here"
-   ```
-5. Click **Deploy**
-
-You'll get a public URL like `https://your-app.streamlit.app` in about a minute. The app stays deployed indefinitely on the free tier. If it receives no traffic for ~7 days it goes to sleep, but wakes up automatically when someone visits the link again.
+To visualize the Demo version of the product you can visit - https://georgian-rag-agent-ytsnhszgyxuawtvsnxyxx6.streamlit.app/ 
 
 ## Data source
 
